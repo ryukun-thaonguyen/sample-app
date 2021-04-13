@@ -1,0 +1,21 @@
+vi:
+  home: "trang chủ"
+  tx1: "ứng dụng mẫu hướng dẫn ruby on rails"
+  welcome: "chào mừng"
+  tx_sample: "ứng dụng mẫu"
+  tx_about: "về chúng tôi"
+  tx_help: "trợ giúp"
+  tx_contact: "liên hệ"
+  tx2: "hướng dẫn học ruby on rails"
+  static_pages:
+    home:
+      link: "đường dẫn"
+    help:
+      help_tx1: "nhận trợ giúp về hướng dẫn ruby on rails"
+      help_tx2: "để nhận trợ giúp về ứng dụng mẫu này"
+      help_tx3: "trợ giúp rails"
+    contact:
+      contact_tx1: "đây là trang chủ"
+    about:
+      about_tx1: "một phần của hướng dẫn"
+      about_tx2: "đây là ứng dụng mẫu cho phần hướng dẫn"
