@@ -3,15 +3,15 @@
     <div class="col-md-6 col-md-offset-3 form-group">
         <%= form_for @user do |f| %>
             <%= render 'shared/error_messages' %>
-            <%= f.label t("signup.form.name") %>
-            <%= f.text_field :name, class: "form-control" %>
-            <%= f.label t("signup.form.email") %>
-            <%= f.email_field :email, class: "form-control" %>
-            <%= f.label t("signup.form.password") %>
-            <%= f.password_field :password, class: "form-control" %>
-            <%= f.label t("signup.form.password_confirm") %>
-            <%= f.password_field :password_confirmation, class: "form-control" %>
-            <%= f.submit t("signup.form.submit"), class: "btn btn-primary" %>
+            <%= f.label t("form.name") %>
+            <%= f.text_field :name,class: "form-control" %>
+            <%= f.label t("form.email") %>
+            <%= f.email_field :email,class: "form-control" %>
+            <%= f.label t("form.password") %>
+            <%= f.password_field :password,class: "form-control" %>
+            <%= f.label t("form.password_confirm") %>
+            <%= f.password_field :password_confirmation,class: "form-control" %>
+            <%= f.submit t("form.submit"), class: "btn btn-primary" %>
         <% end %>
     </div>
 </div>

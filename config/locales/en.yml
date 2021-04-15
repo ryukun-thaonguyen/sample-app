@@ -8,9 +8,13 @@ en:
   tx2: "ruby on rails tutorial"
   txt_singuptit: "sign up"
   txt_signup: "sign up now"
-  login: "login"
   account: "account"
   language: "language"
+  tx_login: "login"
+  tx_newuser: "new user"
+  profile_txt: "profile"
+  logout_txt: "logout"
+  login_error_txt: "invalid email/password combination"
   static_pages:
     home:
       link: "link"
@@ -23,12 +27,16 @@ en:
     about:
       about_tx1: "part of the tutorial"
       about_tx2: "this is the sample app for the tutorial"
-  signup:
-      form:
-        name: "name"
-        email: "email"
-        password: "password"
-        password_confirm: "password confirmation"
-        submit: "create account"
-        notice_success: "account was successfully created"
+  form:
+    name: "name"
+    email: "email"
+    password: "password"
+    password_confirm: "password confirmation"
+    submit: "create account"
+    notice_success: "account was successfully created"
+    errors: "the form contains"
+    error_txt: "error"
+    count_eror:
+      one: "%{count} error"
+      other: "%{count} errors"
 

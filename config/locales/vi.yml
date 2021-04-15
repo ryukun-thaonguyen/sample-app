@@ -9,9 +9,13 @@ vi:
   tx2: "hướng dẫn học ruby on rails"
   txt_singuptit: "đăng ký"
   txt_signup: "đăng kí bây giờ"
-  login: "đăng nhập"
   account: "tài khoản"
   language: "ngôn ngữ"
+  tx_login: "đăng nhập"
+  tx_newuser: "tài khoản mới"
+  profile_txt: "thông tin tài khoản"
+  logout_txt: "đăng xuất"
+  login_error_txt: "thông tin tài khoản/mật khẩu không đúng"
   static_pages:
     home:
       link: "đường dẫn"
@@ -24,11 +28,15 @@ vi:
     about:
       about_tx1: "một phần của hướng dẫn"
       about_tx2: "đây là ứng dụng mẫu cho phần hướng dẫn"
-  signup:
-    form:
-      name: "tên"
-      email: "tài khoản email"
-      password: "mật khẩu"
-      password_confirm: "xác nhận mật khẩu"
-      submit: "tạo tài khoản"
-      notice_success: "tài khoản đã được tạo thành công"
+  form:
+    name: "tên"
+    email: "tài khoản email"
+    password: "mật khẩu"
+    password_confirm: "xác nhận mật khẩu"
+    submit: "tạo tài khoản"
+    notice_success: "tài khoản đã được tạo thành công"
+    errors: "form chứa"
+    error_txt: "lỗi"
+    count_eror:
+      one: "%{count} lỗi"
+      other: "%{count} lỗi"
