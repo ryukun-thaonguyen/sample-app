@@ -1,0 +1,20 @@
+en:
+  home: "home"
+  tx1: "ruby on rails tutorial sample app"
+  tx_sample: "sample app"
+  tx_about: "about us"
+  tx_help: "help"
+  tx_contact: "contact"
+  tx2: "ruby on rails tutorial"
+  static_pages:
+    home:
+      link: "link"
+    help:
+     help_tx1:  "get help on the ruby on rails tutorial"
+     help_tx2: "to get help on this sample app"
+     help_tx3: "rails tutorial help"
+    contact:
+     contact_tx1: "this is the home page"
+    about:
+      about_tx1: "part of the tutorial"
+      about_tx2: "this is the sample app for the tutorial"
