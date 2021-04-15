@@ -7,6 +7,10 @@ vi:
   tx_help: "trợ giúp"
   tx_contact: "liên hệ"
   tx2: "hướng dẫn học ruby on rails"
+  signup: "đăng kí bây giờ"
+  login: "đăng nhập"
+  account: "tài khoản"
+  language: "ngôn ngữ"
   static_pages:
     home:
       link: "đường dẫn"
