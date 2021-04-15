@@ -4,10 +4,18 @@ class SessionsController < ApplicationController
 
   def create
     if @user&.authenticate(params[:session][:password])
-      log_in @user
-      redirect_to @user
+      if @user.activated?
+        log_in @user
+        params[:session][:remember_me] == '1' ? remember(@user) : forget(@user)
+        redirect_back_or @user
+      else
+        message = t("users.not_activatie_txt")
+        message += " #{t("users.activate_message_txt")}"
+        flash[:warning] = message
+        redirect_to root_url
+      end
     else
-      flash[:danger] = t :login_error_txt
+      flash.now[:danger] = t :login_error_txt
       render :new
     end
   end
