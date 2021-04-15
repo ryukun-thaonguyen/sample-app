@@ -6,6 +6,10 @@ en:
   tx_help: "help"
   tx_contact: "contact"
   tx2: "ruby on rails tutorial"
+  signup: "sign up now"
+  login: "login"
+  account: "account"
+  language: "language"
   static_pages:
     home:
       link: "link"

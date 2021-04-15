@@ -10,6 +10,7 @@ gem "webpacker", "~> 5.0"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.7"
 gem "bootsnap", ">= 1.4.4", require: false
+gem "bcrypt", "~> 3.1", ">= 3.1.12"
 gem "rails-i18n"
 
 group :development, :test do

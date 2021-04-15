@@ -1,9 +1,12 @@
 <% provide(:title, t(:home) ) %>
-<h1><%= t :tx_sample %></h1>
-<p>
-    <%= t :welcome %>
-    <%= t :tx_sample %>
-    <a href="https://www.railstutorial.org/"><%=t :tx2 %></a>
+<div class="container">
+    <div class="card home-card">
+        <div class="card-body">
+            <h4 class="card-title"><%=t :welcome %></h4>
+            <h5 class="card-text"><%=t :tx_sample %><a href="https://www.railstutorial.org/"> <%=t :tx2 %></a></h5>
+            <%= link_to t(:signup) , signup_path, class: "btn btn-lg btn-primary" %>
+        </div>
+    </div>
+<p> 
 </p>
-<%= link_to "english", locale:"en" %>
-<%= link_to "vietnamese", locale:"vi" %>
+</div>
