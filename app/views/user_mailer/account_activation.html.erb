@@ -1,0 +1,6 @@
+<h1>Sample App</h1>
+<p><%= @user.name %>,</p>
+<p>
+<%= t :activation_message_txt %>
+</p>
+<%= link_to "Activate", edit_account_activation_url(@user, @user.activation_token, email: @user.email) %>
