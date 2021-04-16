@@ -11,6 +11,8 @@ vi:
   login: "đăng nhập"
   account: "tài khoản"
   language: "ngôn ngữ"
+  tx_login: "đăng nhập"
+  tx_newuser: "tài khoản mới"
   static_pages:
     home:
       link: "đường dẫn"
@@ -23,7 +25,6 @@ vi:
     about:
       about_tx1: "một phần của hướng dẫn"
       about_tx2: "đây là ứng dụng mẫu cho phần hướng dẫn"
-  signup:
     form:
       name: "tên"
       email: "tài khoản email"

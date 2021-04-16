@@ -11,6 +11,7 @@ class UsersController < ApplicationController
     @user=User.new(user_params)
     respond_to do |format|
       if @user.save
+        log_in @user
         format.html { redirect_to @user, notice: t("signup.form.notice_success") }
         format.json { render :show, status: :created, location: @user }
       else

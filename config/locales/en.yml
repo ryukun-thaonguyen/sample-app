@@ -10,6 +10,8 @@ en:
   login: "login"
   account: "account"
   language: "language"
+  tx_login: "login"
+  tx_newuser: "new user"
   static_pages:
     home:
       link: "link"
@@ -22,12 +24,11 @@ en:
     about:
       about_tx1: "part of the tutorial"
       about_tx2: "this is the sample app for the tutorial"
-  signup:
-    form:
-      name: "name"
-      email: "email"
-      password: "password"
-      password_confirm: "password confirmation"
-      submit: "create account"
-      notice_success: "account was successfully created"
+  form:
+    name: "name"
+    email: "email"
+    password: "password"
+    password_confirm: "password confirmation"
+    submit: "create account"
+    notice_success: "account was successfully created"
 
