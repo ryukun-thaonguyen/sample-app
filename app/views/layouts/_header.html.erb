@@ -14,17 +14,17 @@
              <%= link_to t(:tx_help), help_path , class: "nav-link" %>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#"><%=t :login %></a>
+            <a class="nav-link" href="#"><%= t :login %></a>
             </li>
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%=t :account%></a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= t :account %></a>
             <div class="dropdown-menu" aria-labelledby="dropdownId">
                 <a class="dropdown-item" href="#">Action 1</a>
                 <a class="dropdown-item" href="#">Action 2</a>
             </div>
             </li>
              <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdownId2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%=t :language%></a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= t :language %></a>
             <div class="dropdown-menu" aria-labelledby="dropdownId2">
                 <div class="dropdown-item"><%= link_to "english", locale:"en" %></div>
                 <div class="dropdown-item"><%= link_to "vietnamese", locale:"vi" %></div>
