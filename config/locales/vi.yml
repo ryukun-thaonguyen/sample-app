@@ -7,7 +7,8 @@ vi:
   tx_help: "trợ giúp"
   tx_contact: "liên hệ"
   tx2: "hướng dẫn học ruby on rails"
-  signup: "đăng kí bây giờ"
+  txt_singuptit: "đăng ký"
+  txt_signup: "đăng kí bây giờ"
   login: "đăng nhập"
   account: "tài khoản"
   language: "ngôn ngữ"
@@ -23,3 +24,11 @@ vi:
     about:
       about_tx1: "một phần của hướng dẫn"
       about_tx2: "đây là ứng dụng mẫu cho phần hướng dẫn"
+  signup:
+    form:
+      name: "tên"
+      email: "tài khoản email"
+      password: "mật khẩu"
+      password_confirm: "xác nhận mật khẩu"
+      submit: "tạo tài khoản"
+      notice_success: "tài khoản đã được tạo thành công"

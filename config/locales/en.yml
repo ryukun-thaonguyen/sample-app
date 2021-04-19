@@ -6,7 +6,8 @@ en:
   tx_help: "help"
   tx_contact: "contact"
   tx2: "ruby on rails tutorial"
-  signup: "sign up now"
+  txt_singuptit: "sign up"
+  txt_signup: "sign up now"
   login: "login"
   account: "account"
   language: "language"
@@ -22,3 +23,12 @@ en:
     about:
       about_tx1: "part of the tutorial"
       about_tx2: "this is the sample app for the tutorial"
+  signup:
+      form:
+        name: "name"
+        email: "email"
+        password: "password"
+        password_confirm: "password confirmation"
+        submit: "create account"
+        notice_success: "account was successfully created"
+
