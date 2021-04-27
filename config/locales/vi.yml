@@ -48,6 +48,14 @@ vi:
     saveChange: "lưu thay đổi"
     change: "thay đổi"
     login_required: "hãy đăng nhập trước"
+    cant_empty: "không thể rỗng"
+  email:
+    activation_email_tit: "kích hoạt tài khoản"
+    password_reset_tit: "thay đổi mật khẩu"
+    password_reset_email_tx1: "để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới"
+    password_reset_email_tx2: "nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ"
+    password_reset_email_exp: "đặt lại mật khẩu đã hết hạn"
+    password_reseted: "mật khẩu đã được thay đổi"
   users:
     deleted_txt: "đã xóa người dùng"
     activate_message_txt: "hãy kiểm tra email của bạn để kích hoạt tài khoản"
@@ -55,3 +63,8 @@ vi:
     invalid_activation_link_txt: "đường dẫn không hợp lệ"
     delete_txt: "xóa"
     delete_confirm_txt: "xóa người dùng?"
+    forgot_password_txt: "quên mật khẩu"
+    forgot_password_submit_txt: "lấy lại mật khẩu"
+    forgot_email_sent: "email đã được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    forgot_email_notfound: "không tìm thấy email"
+    update_password_txt: "cập nhật mật khẩu"

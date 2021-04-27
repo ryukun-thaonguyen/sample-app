@@ -47,6 +47,14 @@ en:
     saveChange: "save change"
     change: "change"
     login_required: "please login"
+    cant_empty: "can't be empty"
+  email:
+    activation_email_tit: "account activation"
+    password_reset_tit: "password reset"
+    password_reset_email_tx1: "to reset your password click the link below"
+    password_reset_email_tx2: "if you did not request your password to be reset, please ignore this email and your password will stay as it is"
+    password_reset_email_exp: "password reset has expired"
+    password_reseted: "password has been reset"
   users:
     deleted_txt: "user deleted"
     activate_message_txt: "please check your email to activate your account"
@@ -54,3 +62,8 @@ en:
     invalid_activation_link_txt: "invalid activation link"
     delete_txt: "delete"
     delete_confirm_txt: "you sure?"
+    forgot_password_txt: "forgot password"
+    forgot_password_submit_txt: "get password"
+    forgot_email_sent: "email sent with password reset instructions"
+    forgot_email_notfound: "email address not found"
+    update_password_txt: "update password"
