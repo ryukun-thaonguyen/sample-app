@@ -1,0 +1,19 @@
+<% provide(:title, "Log in") %>
+
+<div class="row signup">
+    <div class="col-md-6 col-md-offset-3 form-group">
+     <h1><%=t :tx_login %></h1>
+    <%= form_for(:session, url: login_path) do |f| %>
+    <%= f.label t("form.email") %>
+    <%= f.email_field :email, class: 'form-control' %>
+    <%= f.label t("form.password") %>
+    <%= link_to "(#{t("users.forgot_password_txt")})", new_password_reset_path %>
+    <%= f.password_field :password, class: 'form-control' %>
+    <%= f.submit t(:tx_login), class: "btn btn-primary" %>
+    <%= f.label :remember_me, class: "checkbox inline" do %>
+    <%= f.check_box :remember_me %>
+    <span><%= t("form.remember_txt") %></span>
+    <% end %>
+    <% end %>
+    <p><%=t :tx_newuser %> <%= link_to t(:txt_signup), signup_path %></p>
+</div>
