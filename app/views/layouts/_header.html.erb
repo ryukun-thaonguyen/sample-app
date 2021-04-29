@@ -4,9 +4,8 @@
     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation">
     </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">   
-      </div>
-      <div class="nav navbar-nav navbar-right">
+    <div class="collapse navbar-collapse" id="collapsibleNavId"></div>
+    <div class="nav navbar-nav navbar-right">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
           <%= link_to t(:home), root_path, class: "nav-link" %>
@@ -14,17 +13,22 @@
         <li class="nav-item">
           <%= link_to t(:tx_help), help_path , class: "nav-link" %>
         </li>
-        <li class="nav-item">
-          <%= link_to t(:tx_login), login_path,class: "nav-link" %>
-        </li>
         <% if logged_in? %>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= t :account %></a>
-          <div class="dropdown-menu" aria-labelledby="dropdownId">
-            <%= link_to t(:profile_txt), current_user, class: "dropdown-item" %>
-            <%= link_to t(:logout_txt), logout_path, method: :delete, class: "dropdown-item" %>
-          </div>
+        <li class="nav-item">
+          <%= link_to t(:all_user), users_path, class: "nav-link" %>
         </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= t :account %></a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <%= link_to t(:profile_txt), current_user, class: "dropdown-item" %>
+              <%= link_to t(:logout_txt), logout_path, method: :delete, class: "dropdown-item" %>
+              <%= link_to t(:setting), edit_user_path(current_user), class: "dropdown-item" %>
+            </div>
+        </li>
+        <% else %>
+          <li class="nav-item">
+            <%= link_to t(:login), login_path,class: "nav-link" %>
+          </li>
         <% end %>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdownId2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= t :language %></a>
@@ -33,7 +37,8 @@
             <div class="dropdown-item"><%= link_to "vietnamese", locale:"vi" %></div>
           </div>
         </li>
-      </ul>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
