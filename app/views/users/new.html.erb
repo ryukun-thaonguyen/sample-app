@@ -1,17 +1,18 @@
 <% provide(:title, t(:txt_signuptit)) %>
+<% provide(:button_text, t("form.submit")) %>
 <div class="row signup">
-    <div class="col-md-6 col-md-offset-3 form-group">
-        <%= form_for @user do |f| %>
-            <%= render 'shared/error_messages' %>
-            <%= f.label t("form.name") %>
-            <%= f.text_field :name,class: "form-control" %>
-            <%= f.label t("form.email") %>
-            <%= f.email_field :email,class: "form-control" %>
-            <%= f.label t("form.password") %>
-            <%= f.password_field :password,class: "form-control" %>
-            <%= f.label t("form.password_confirm") %>
-            <%= f.password_field :password_confirmation,class: "form-control" %>
-            <%= f.submit t("form.submit"), class: "btn btn-primary" %>
-        <% end %>
-    </div>
+  <div class="col-md-6 col-md-offset-3 form-group">
+    <%= form_for @user do |f| %>
+      <%= render 'shared/error_messages' %>
+      <%= f.label t("form.name") %>
+      <%= f.text_field :name,class: "form-control" %>
+      <%= f.label t("form.email") %>
+      <%= f.email_field :email,class: "form-control" %>
+      <%= f.label t("form.password") %>
+      <%= f.password_field :password,class: "form-control" %>
+      <%= f.label t("form.password_confirm") %>
+      <%= f.password_field :password_confirmation,class: "form-control" %>
+      <%= f.submit t("form.submit"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
 </div>

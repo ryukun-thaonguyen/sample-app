@@ -15,6 +15,9 @@ en:
   profile_txt: "profile"
   logout_txt: "logout"
   login_error_txt: "invalid email/password combination"
+  editUser_txt: "edit user"
+  all_user: "users"
+  setting: "settings"
   static_pages:
     home:
       link: "link"
@@ -33,9 +36,20 @@ en:
     password: "password"
     password_confirm: "password confirmation"
     submit: "create account"
-    notice_success: "account was successfully created"
-    errors: "the form contains"
+    notice_success_create: "account was successfully created"
+    notice_success_update: "account was successfully updated"
     remember_txt: "remember me on this computer"
     count_eror:
       one: "%{count} error"
       other: "%{count} errors"
+    saveChange: "save change"
+    change: "change"
+    login_required: "please login"
+  users:
+    all_user_tit: "all users"
+    deleted_txt: "user deleted"
+    activate_message_txt: "please check your email to activate your account"
+    activated_message_txt: "account activated!"
+    invalid_activation_link_txt: "invalid activation link"
+    delete_txt: "delete"
+    delete_confirm_txt: "you sure?"
