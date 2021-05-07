@@ -36,7 +36,7 @@ vi:
     submit: "tạo tài khoản"
     notice_success: "tài khoản đã được tạo thành công"
     errors: "form chứa"
-    error_txt: "lỗi"
+    remember_txt: "lưu lại thông tin đăng nhập trên thiết bị này"
     count_eror:
       one: "%{count} lỗi"
       other: "%{count} lỗi"
